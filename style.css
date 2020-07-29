@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.sideList {
+    position: absolute;
+    border: solid 1px #222;
+    width: 300px;
+    height: calc(100% - 40px);
+}
+
+.sideList ul{
+    padding: 80px 50px;
+}
+
+ul li {
+    padding: 10px 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    color: whitesmoke;
+    text-align: center;
+}
