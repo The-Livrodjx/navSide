@@ -153,7 +153,11 @@ li img{
 
 .chat .messageInfos li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 7px;
+}
+
+.messageInfos .imageInfo {
+    vertical-align: middle;
 }
 
 .chatInput {
